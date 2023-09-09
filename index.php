@@ -7,6 +7,6 @@ if (isset($_SESSION['user_name'])) {
         echo '<a href="/exit.php">Выйти</a>';
     }
 } else {
-    include_once __DIR__.'\web\index.php';
+    include_once __DIR__.'/web/index.php';
 }
 
